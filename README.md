@@ -129,7 +129,7 @@ Packer is used to manage plugins in this configuration.
    ```
 2. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/my-neovim-config.git ~/.config/nvim
+   git clone https://github.com/MahimnaUpadhyaySVIT/my-neovim-config.git ~/.config/nvim
    ```
 
 ### Step 4: Launch NeoVim
