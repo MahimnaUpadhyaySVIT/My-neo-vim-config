@@ -145,5 +145,6 @@ Packer is used to manage plugins in this configuration.
 - **Catppuccin** theme for a visually pleasing UI.
 - **Telescope** for powerful fuzzy finding.
 - **Packer** for easy plugin management.
+- **Harpoon** for easy navigation between files
 
 Feel free to customize and extend this configuration to suit your needs!
