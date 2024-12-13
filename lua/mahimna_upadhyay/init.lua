@@ -1,2 +1,2 @@
 require("mahimna_upadhyay.remap")
-print("inside mahimna_upadhyay directory, init lua file");
+require("mahimna_upadhyay.set")
