@@ -1,7 +1,9 @@
 # My NeoVim Config
+![My-neo-vim-config](https://github.com/user-attachments/assets/ba885cbe-19d1-493a-a661-c228d5320921)
 
-Welcome to my NeoVim configuration! This setup is tailored for efficient and aesthetic coding using modern plugins and features.
-
+Vim/NeoVim is by far best IDE i have ever used till now, my productivity has been increased like 10 times (which is huge), even though I have touched the tip of vim iceberg here is my NeoVim configurations files
+for beginners (Yes, I'm talking about myself), in future more changes will be added and will make this config a lot better. 
+ 
 ## Installation Steps
 
 ### Step 1: Installing NeoVim
