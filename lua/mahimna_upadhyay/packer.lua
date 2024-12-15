@@ -12,7 +12,15 @@ return require('packer').startup(function(use)
     branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  
+ 
+  -- for lsp
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
+
+
   -- for highlighting the syntax
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -30,8 +38,6 @@ return require('packer').startup(function(use)
     	'nvim-tree/nvim-web-devicons', -- optional
   	},
   }
-
-  use 'nvim-tree/nvim-web-devicons'
 
   -- for showcasing all the changes in tree format
   use "mbbill/undotree"
