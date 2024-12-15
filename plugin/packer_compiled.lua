@@ -79,6 +79,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\upadh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  nord = {
+    config = { "\27LJ\2\n4\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\21colorscheme nord\bcmd\bvim\0" },
+    loaded = true,
+    path = "C:\\Users\\upadh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nord",
+    url = "https://github.com/shaunsingh/nord.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "C:\\Users\\upadh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
@@ -109,12 +115,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\upadh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["rose-pome"] = {
-    config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
-    loaded = true,
-    path = "C:\\Users\\upadh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pome",
-    url = "https://github.com/rose-pine/neovim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\upadh\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -133,10 +133,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: rose-pome
-time([[Config for rose-pome]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pome")
-time([[Config for rose-pome]], false)
+-- Config for: nord
+time([[Config for nord]], true)
+try_loadstring("\27LJ\2\n4\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\21colorscheme nord\bcmd\bvim\0", "config", "nord")
+time([[Config for nord]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

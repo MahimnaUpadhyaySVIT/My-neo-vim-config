@@ -31,6 +31,8 @@ return require('packer').startup(function(use)
   	},
   }
 
+  use 'nvim-tree/nvim-web-devicons'
+
   -- for showcasing all the changes in tree format
   use "mbbill/undotree"
 
@@ -39,10 +41,10 @@ return require('packer').startup(function(use)
 
   -- for color scheme
   use {
-     "rose-pine/neovim", 
-     as = "rose-pome", 
+     "shaunsingh/nord.nvim", 
+     as = "nord", 
      config = function()
-     vim.cmd('colorscheme rose-pine')
+     vim.cmd('colorscheme nord')
 	 end
  }
 
