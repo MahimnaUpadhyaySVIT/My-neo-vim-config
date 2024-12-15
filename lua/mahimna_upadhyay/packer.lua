@@ -13,12 +13,6 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   
-  use 'williambolin/nvim-lspconfig'
-  use 'neovim/nvim-lsp-installer'
-  use { 'neovim/nvim-lspconfig' }
-  use { 'williambolin/nvim-lspconfig' }
-  use { 'jose-romero/nvim-lspinstall' }
-
   -- for highlighting the syntax
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -29,6 +23,14 @@ return require('packer').startup(function(use)
   -- for navigating files from one place to another
   use "theprimeagen/harpoon"
 
+  -- File exporer
+  use {
+  	'nvim-tree/nvim-tree.lua',
+  	requires = {
+    	'nvim-tree/nvim-web-devicons', -- optional
+  	},
+  }
+
   -- for showcasing all the changes in tree format
   use "mbbill/undotree"
 
@@ -37,11 +39,11 @@ return require('packer').startup(function(use)
 
   -- for color scheme
   use {
-    "catppuccin/nvim", 
-    as = "catppuccin", 
-    config = function()
-      vim.cmd('colorscheme catppuccin')
-    end
-  }
+     "rose-pine/neovim", 
+     as = "rose-pome", 
+     config = function()
+     vim.cmd('colorscheme rose-pine')
+	 end
+ }
 
 end)
