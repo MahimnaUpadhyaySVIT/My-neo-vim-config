@@ -1,7 +1,9 @@
 # My NeoVim Config
+![My-neo-vim-config](https://github.com/user-attachments/assets/ba885cbe-19d1-493a-a661-c228d5320921)
 
-Welcome to my NeoVim configuration! This setup is tailored for efficient and aesthetic coding using modern plugins and features.
-
+Vim/NeoVim is by far best IDE i have ever used till now, my productivity has been increased like 10 times (which is huge), even though I have touched the tip of vim iceberg here is my NeoVim configurations files
+for beginners (Yes, I'm talking about myself), in future more changes will be added and will make this config a lot better. 
+ 
 ## Installation Steps
 
 ### Step 1: Installing NeoVim
@@ -127,7 +129,7 @@ Packer is used to manage plugins in this configuration.
    ```
 2. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/my-neovim-config.git ~/.config/nvim
+   git clone https://github.com/MahimnaUpadhyaySVIT/my-neovim-config.git ~/.config/nvim
    ```
 
 ### Step 4: Launch NeoVim
@@ -143,5 +145,6 @@ Packer is used to manage plugins in this configuration.
 - **Catppuccin** theme for a visually pleasing UI.
 - **Telescope** for powerful fuzzy finding.
 - **Packer** for easy plugin management.
+- **Harpoon** for easy navigation between files
 
 Feel free to customize and extend this configuration to suit your needs!
