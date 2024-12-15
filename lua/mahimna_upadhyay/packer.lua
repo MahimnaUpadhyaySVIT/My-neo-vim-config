@@ -41,10 +41,10 @@ return require('packer').startup(function(use)
 
   -- for color scheme
   use {
-     "shaunsingh/nord.nvim", 
-     as = "nord", 
+	 "catppuccin/nvim", 
+	 as = "catppuccin",
      config = function()
-     vim.cmd('colorscheme nord')
+     vim.cmd('colorscheme catppuccin-macchiato')
 	 end
  }
 
