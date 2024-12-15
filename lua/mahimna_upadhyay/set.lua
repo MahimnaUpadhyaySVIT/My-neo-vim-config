@@ -9,3 +9,5 @@ vim.opt.mouse = 'a'
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>')
 
 vim.opt.statusline = '%<%{strftime("%H:%M")}%=%F%m%r%h%w'
+
+vim.keymap.set('n', '<C-h>', ':NvimTreeFocus<CR>', { noremap = true, silent = true })
